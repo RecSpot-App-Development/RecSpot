@@ -48,7 +48,7 @@ The purpose of this app is to allow users to record a video that can then be edi
    * Allows users to create their video 
 * Music Selection Screen
     * Allows users to select from the top 50 songs currently trending in the US
-* Filters Screen
+* Edit Screen
     * Allows users to be able to choose from the various provided edit features 
 
 
@@ -71,7 +71,7 @@ The purpose of this app is to allow users to record a video that can then be edi
    * Home Screen
 * Song Selection Screen
     * Home Screen
-* Filter Screen
+* Edit Screen
     * Home Screen
 * Save Video Screen
     
