@@ -81,7 +81,7 @@ The purpose of this app is to allow users to record a video that can then be edi
 <img src="Hand_sketches.jpg" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
-<img src="DigitalWireframes.png" width=600>
+<img src="DigitalWireframespic.png" width=600>
 
 ### [BONUS] Interactive Prototype
 <img src="InteractivePrototype.gif" width=350><br>
