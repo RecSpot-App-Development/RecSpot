@@ -8,7 +8,7 @@
 
 ## Overview
 ### Description
-The purpose of this app is to allow users to record a video that can then be edited with the use of filters and music taken from Spotify. To be more precise, the user will be able to record a video and then be given the options: add filters and add music from Spotify. If the user simply wishes not to select these two options, they can just create/save the video they made. 
+The purpose of this app is to allow users to record a video that can then be edited with the use of filters and music taken from Spotify. To be more precise, the user will be able to record a video and then be given the options: edit the video and add music from Spotify. If the user simply wishes not to select these two options, they can just create/save the video they made. 
 
 
 ### App Evaluation
@@ -29,7 +29,7 @@ The purpose of this app is to allow users to record a video that can then be edi
 * User can save their video
 * User can view the top 50 trending songs in the U.S.
 * From the top 50 songs listed, users can choose their favorite song from the list 
-* User can view/add the various filters provided 
+* User can view/add the various edit options provided 
 
 
 **Optional Nice-to-have Stories**
