@@ -77,14 +77,13 @@ The purpose of this app is to allow users to record a video that can then be edi
     
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
 <img src="Sketch_Wireframes.png" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 <img src="DigitalWireframespic.png" width=600>
 
 ### [BONUS] Interactive Prototype
-<img src="InteractivePrototype.gif" width=350><br>
+<img src="InteractivePrototype(figma).gif" width=350><br>
 
 
 ## Schema 
