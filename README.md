@@ -40,16 +40,16 @@ The purpose of this app is to allow users to record a video that can then be edi
 
 ### 2. Screen Archetypes
 
-* There is essentially no login screen where the user would have to login. Instead, we have the Option Screen - Four options: Record, Select Music, Filters and Save
+* There is essentially no login screen where the user would have to login. Instead, we have the Option Screen - Four options: Record, Select Music, Edit and Save
     * Upon selecting Record, users will be taken to their camera
     * Upon selecting Select Music, users will be taken to the Music Selection screen 
-    * Upon selecting Filters, users will be take to the Filter Screen
+    * Upon selecting Edit, users will be take to the Edit Screen
 * Creation (Camera) Screen 
    * Allows users to create their video 
 * Music Selection Screen
     * Allows users to select from the top 50 songs currently trending in the US
 * Filters Screen
-    * Allows users to be able to choose from the various provided filters 
+    * Allows users to be able to choose from the various provided edit features 
 
 
 ### 3. Navigation
