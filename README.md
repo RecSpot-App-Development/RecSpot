@@ -121,4 +121,18 @@ The purpose of this app is to allow users to record a video that can then be edi
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+- [OPTIONAL]: Existing API Endpoints
+##### An API of Spotify 
+- Base URL - https://developer.spotify.com/console/get-audio-features-track/
+  HTTP Verb  | Endpoint | Description
+   ----------|----------|------------
+     `GET`   |https://api.spotify.com/v1/audio-features/{id}| Users can request a song using the Spotify API
+  |`GET`|https://api.spotify.com/v1/search |Users can search for music by using the search bar
+  
+ 
+##### An API of VideoEditor 
+
+- Base URL - https://img.ly/docs/vesdk/guides/android/v8_1/introduction/getting_started
+  HTTP Verb  | Endpoint | Description
+   ----------|--------|------------
+    `GET`    |https://artifactory.img.ly/artifactory/imgly/| Using this API it will be able to retrieve video-trim, text, brush, filter, sticker, overlay, transform, adjustment, text-design
