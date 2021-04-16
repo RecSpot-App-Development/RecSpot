@@ -96,7 +96,7 @@ The purpose of this app is to allow users to record a video that can then be edi
    |  objectId  | String  |unique id for the user's video (default field) |
    |  vidsCount     | Number |  number of videos the user has created |
    
-    #### Edits
+   #### Edits
   | Property      | Type     | Description |
    | ------------- | -------- | ------------|
    |  objectId| String |after user edits the video it will be saved under a unique Id (default field)|
