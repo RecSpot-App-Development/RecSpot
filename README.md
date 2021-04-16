@@ -121,7 +121,8 @@ The purpose of this app is to allow users to record a video that can then be edi
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
-- [OPTIONAL]: Existing API Endpoints
+
+#### [OPTIONAL]: Existing API Endpoints
 ##### An API of Spotify 
 - Base URL - https://developer.spotify.com/console/get-audio-features-track/
   HTTP Verb  | Endpoint | Description
