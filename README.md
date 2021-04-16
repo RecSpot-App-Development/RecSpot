@@ -123,6 +123,14 @@ The purpose of this app is to allow users to record a video that can then be edi
 #### List of network requests by screen
 - Music Screen
     - (Read/GET) fetching music from Spotify
+      ``` swift
+        ConnectionParams connectionParams =
+        new ConnectionParams.Builder(CLIENT_ID)
+            .setRedirectUri(REDIRECT_URI)
+            .setJsonMapper(JacksonMapper.create())
+            .build();
+        SpotifyAppRemote.connect(this, connectionParams, connectionListener);
+         ```
 
 #### [OPTIONAL]: Existing API Endpoints
 ##### An API of Spotify 
