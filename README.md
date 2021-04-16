@@ -87,10 +87,14 @@ The purpose of this app is to allow users to record a video that can then be edi
 
 
 ## Schema 
-[This section will be completed in Unit 9]
+
 ### Models
-[Add table of models]
-### Networking
+#### Video
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   |  objectId  | String  |unique id for the user's video (default field) |
+   |  vidsCount     | Number |  number of videos the user has created |### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
