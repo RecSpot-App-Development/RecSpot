@@ -118,9 +118,11 @@ The purpose of this app is to allow users to record a video that can then be edi
 |album |String | music have specific album|
 |music length| String| each song will have certain time length|
 |search music| String| user can search for any music they prefer| 
+
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
+#### List of network requests by screen
+- Music Screen
+    - (Read/GET) fetching music from Spotify
 
 #### [OPTIONAL]: Existing API Endpoints
 ##### An API of Spotify 
