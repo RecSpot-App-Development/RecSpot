@@ -94,7 +94,31 @@ The purpose of this app is to allow users to record a video that can then be edi
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
    |  objectId  | String  |unique id for the user's video (default field) |
-   |  vidsCount     | Number |  number of videos the user has created |### Networking
+   |  vidsCount     | Number |  number of videos the user has created |
+   
+    #### Edits
+  | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   |  objectId| String |after user edits the video it will be saved under a unique Id (default field)|
+   | filter | String  | filter feature that the user selects  |
+   | adjustments | String | adjustment feaure that the user selects |
+   | brush| String | brush feature that the user selects|
+   | overlays |String | overlays feature that the user selects |
+   | stickers | String|stickers feature that the user selects|
+   |text| String|text feature that the user selects |
+|text design| String|text design feature that the user selects|
+|  transform |String |transform feature that the user selects |
+|trimming |String |trimming feature that the user selects |
+
+ #### Music
+  | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+|  objectId| String |songs will have a unique ID  (default field)|
+|artist| String|music have specific artist|
+|album |String | music have specific album|
+|music length| String| each song will have certain time length|
+|search music| String| user can search for any music they prefer| 
+### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
