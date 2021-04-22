@@ -13,7 +13,7 @@ The purpose of this app is to allow users to record a video that can then be edi
 
 ### App Evaluation
 - **Category:** Entertainment/Music
-- **Mobile:** This app is specficially designed for mobile devices since it is easier to create/edit videos on with the use of the mobile device's camera. Essentially, the user can create videos from any place they go, whether it being outside in the city with friends to walking your pet dog. Other devices such as the laptop would not be the best option for this specific app due the reason of not everyone taking their laptops everywhere they go, whereas our mobile devices are always with us. 
+- **Mobile:** This app is specificially designed for mobile devices since it is easier to create/edit videos on with the use of the mobile device's camera. Essentially, the user can create videos from any place they go, whether it being outside in the city with friends to walking your pet dog. Other devices such as the laptop would not be the best option for this specific app due the reason of not everyone taking their laptops everywhere they go, whereas our mobile devices are always with us. 
 - **Story:** Allows users to select the music choices they want/the edit options they want. Allows users to to engage in making enojoyable videos with either themselves or with their friends/family. 
 - **Market:** There is no age restricition for this app, therefore any individual can use it. 
 - **Habit:** If the user thoroughly enjoys making/editing videos, this app can be used everyday. 
@@ -25,8 +25,8 @@ The purpose of this app is to allow users to record a video that can then be edi
 
 **Required Must-have Stories**
 
-* User can selects 'Record so that that they can make their video
-* User can save their video
+* User can view the selected options that are: Record, Select Music, Edit and Save
+* User can select 'Record' so that they can make their video
 * User can view all the songs provied by Spotify
 * From the music selection, users can choose their favorite song 
 * User can view/add the various edit options provided 
