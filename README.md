@@ -26,6 +26,7 @@ The purpose of this app is to allow users to record a video that can then be edi
 **Required Must-have Stories**
 
 * User can view the selected options that are: Record, Select Music, Edit and Save
+* User can select any of options that are: Record, Select Music, Edit and Save
 * User can select 'Record' so that they can make their video
 * User can view all the songs provied by Spotify
 * From the music selection, users can choose their favorite song 
