@@ -32,7 +32,7 @@ The purpose of this app is to allow users to record a video that can then be edi
 * User can view/add the various edit options provided 
 
 ### App Walkthough GIF
-<img src="" width=350><br>
+<img src="RecSpot_gif.gif" width=350><br>
 
 
 **Optional Nice-to-have Stories**
