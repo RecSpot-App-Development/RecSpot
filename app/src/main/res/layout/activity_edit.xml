@@ -74,6 +74,13 @@
                 android:background="@drawable/textdesign" />
 
             <Button
+                android:id="@+id/transformBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/transform" />
+
+            <Button
                 android:id="@+id/trimBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
