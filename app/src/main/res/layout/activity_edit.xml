@@ -54,6 +54,7 @@
         android:layout_marginEnd="46dp"
         android:layout_marginBottom="220dp"
         android:clickable="true"
-        android:foreground="@android:drawable/ic_media_play" />
+        android:foreground="@android:drawable/ic_media_play"
+        android:focusable="true" />
 
 </RelativeLayout>
