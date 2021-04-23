@@ -31,6 +31,9 @@ The purpose of this app is to allow users to record a video that can then be edi
 * From the music selection, users can choose their favorite song 
 * User can view/add the various edit options provided 
 
+### App Walkthough GIF
+<img src="" width=350><br>
+
 
 **Optional Nice-to-have Stories**
 
