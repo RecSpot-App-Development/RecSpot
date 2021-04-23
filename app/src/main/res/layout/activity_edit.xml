@@ -1,9 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".EditActivity">
 
-</android.support.constraint.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="41dp">
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="59dp"
+            android:background="#10A5F5"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="37dp"
+                android:layout_height="39dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:layout_weight="1"
+                app:srcCompat="@android:drawable/ic_menu_crop" />
+
+            <ImageView
+                android:id="@+id/trimmingImage"
+                android:layout_width="37dp"
+                android:layout_height="39dp"
+                android:cropToPadding="false"
+                app:srcCompat="?attr/actionModeCutDrawable" />
+        </LinearLayout>
+    </ScrollView>
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="283dp"
+        android:layout_height="295dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="220dp"
+        android:clickable="true"
+        android:foreground="@android:drawable/ic_media_play" />
+
+</RelativeLayout>
