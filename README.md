@@ -104,7 +104,7 @@ The purpose of this app is to allow users to record a video that can then be edi
    | ------------- | -------- | ------------|
    |  objectId| String |after user edits the video it will be saved under a unique Id (default field)|
    | filter | String  | filter feature that the user selects  |
-   | adjustments | String | adjustment feaure that the user selects |
+   | adjustments | String | adjustment feature that the user selects |
    | brush| String | brush feature that the user selects|
    | overlays |String | overlays feature that the user selects |
    | stickers | String|stickers feature that the user selects|
