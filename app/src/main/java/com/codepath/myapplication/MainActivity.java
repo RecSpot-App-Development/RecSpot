@@ -16,7 +16,6 @@ import android.widget.VideoView;
 import java.io.File;
 
 public class MainActivity extends AppCompatActivity {
-    static final int VIDEO_REQUEST_CODE = 100;
 
     Button record_btn;
     Button music_btn;
