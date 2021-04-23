@@ -19,7 +19,8 @@
         android:layout_marginTop="125dp"
         android:textColor="#000000"
         android:backgroundTint="#10A5F5"
-        android:text="Record" />
+        android:text="Record"
+        android:onClick="captureVideo"/>
 
     <Button
         android:id="@+id/music_btn"
