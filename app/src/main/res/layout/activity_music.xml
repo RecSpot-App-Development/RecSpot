@@ -5,75 +5,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="16dp"
     tools:context=".MusicActivity">
 
-    <TextView
-        android:id="@+id/Postertv"
-        android:layout_width="247dp"
-        android:layout_height="136dp"
+    <Button
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="62dp"
-        android:layout_marginTop="63dp"
-        android:text="TextView" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="102dp"
+        android:textColor="#000000"
+        android:backgroundTint="#10A5F5"
+        android:text="Play"
+        android:textAppearance="?android:textAppearanceLarge" />
 
-    <ImageView
-        android:id="@+id/ProfileImage"
-        android:layout_width="109dp"
-        android:layout_height="99dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="218dp"
-        tools:srcCompat="@android:mipmap/sym_def_app_icon" />
-
-    <ImageView
-        android:id="@+id/ProfileImage2"
-        android:layout_width="109dp"
-        android:layout_height="99dp"
+    <Button
+        android:id="@+id/pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="21dp"
-        android:layout_marginBottom="221dp"
-        tools:srcCompat="@android:mipmap/sym_def_app_icon" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="156dp"
+        android:layout_marginBottom="306dp"
+        android:textColor="#000000"
+        android:backgroundTint="#10A5F5"
+        android:text="Pause"
+        android:textAppearance="?android:textAppearanceLarge" />
 
-    <ImageView
-        android:id="@+id/ProfileImage3"
-        android:layout_width="109dp"
-        android:layout_height="99dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="26dp"
-        android:layout_marginBottom="56dp"
-        tools:srcCompat="@android:mipmap/sym_def_app_icon" />
-
-    <TextView
-        android:id="@+id/SongDes"
-        android:layout_width="179dp"
-        android:layout_height="59dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="219dp"
-        android:layout_marginEnd="51dp"
-        android:text="TextView" />
-
-    <TextView
-        android:id="@+id/SongDes2"
-        android:layout_width="179dp"
-        android:layout_height="59dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="48dp"
-        android:layout_marginBottom="291dp"
-        android:text="TextView" />
-
-    <TextView
-        android:id="@+id/SongDes3"
-        android:layout_width="179dp"
-        android:layout_height="59dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="50dp"
-        android:layout_marginBottom="123dp"
-        android:text="TextView" />
 </RelativeLayout>
