@@ -27,8 +27,7 @@ The purpose of this app is to allow users to record a video that can then be edi
 
 - [x] User can view the selected options that are: Record, Select Music, Edit and Save
 - [x]  User can select 'Record' so that they can make their video
-- [x] User can view/select the song they want, provdied by AS library
-* From the music selection, users can choose their favorite song 
+- [x] User can play and pause the song provided (song FireFlies)
 * User can view/add the various edit options provided 
 
 ### App Walkthrough GIF
