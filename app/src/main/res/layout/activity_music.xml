@@ -1,40 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+
+<FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
-    android:padding="16dp"
+    android:background="#10A5F5"
+    android:orientation="vertical"
     tools:context=".MusicActivity">
 
-    <Button
-        android:id="@+id/play"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="158dp"
-        android:layout_marginTop="102dp"
-        android:textColor="#000000"
-        android:backgroundTint="#10A5F5"
-        android:text="Play"
-        android:textAppearance="?android:textAppearanceLarge" />
+    <ListView
+        android:id="@+id/song_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/pause"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="156dp"
-        android:layout_marginBottom="306dp"
-        android:textColor="#000000"
-        android:backgroundTint="#10A5F5"
-        android:text="Pause"
-        android:textAppearance="?android:textAppearanceLarge" />
+    </ListView>
 
-</RelativeLayout>
+</FrameLayout>
