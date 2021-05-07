@@ -8,7 +8,7 @@
 
 ## Overview
 ### Description
-The purpose of this app is to allow users to record a video that can then be edited with the use of edit options and music taken from Spotify. To be more precise, the user will be able to record a video and then be given the options: edit the video and add music from Spotify. If the user simply wishes not to select these two options, they can just create/save the video they made. 
+The purpose of this app is to allow users to record a video that can then be edited with the use of edit options and music taken locally from their phones. To be more precise, the user will be able to record a video and then be given the options: edit the video and add music from their devices. If the user simply wishes not to select these two options, they can just create/save the video they made. 
 
 
 ### App Evaluation
@@ -27,12 +27,16 @@ The purpose of this app is to allow users to record a video that can then be edi
 
 - [x] User can view the selected options that are: Record, Select Music, Edit and Save
 - [x]  User can select 'Record' so that they can make their video
-- [x] User can play and pause the song provided (song FireFlies)
-* User can view/add the various edit options provided 
+- [x] User can play and pause the song provided 
+- [x] User can play the song selections from their phones 
+- [x] User can view 3 of the edit options which are: 
+- [ ]  User can view/add the various edit options provided 
 
-### App Walkthrough GIF
+### App Walkthrough GIF for Sprint 1
 <img src="RecSpot_gif.gif" width=350><br>
 
+### App Walkthrough GIF for Sprint 2
+<img src="Music1.gif" width=350><br>
 
 **Optional Nice-to-have Stories**
 
