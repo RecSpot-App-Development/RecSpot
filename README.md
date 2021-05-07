@@ -38,6 +38,8 @@ The purpose of this app is to allow users to record a video that can then be edi
 ### App Walkthrough GIF for Sprint 2
 <img src="Music1.gif" width=350><br>
 
+### App Walkthrough GIF Number 1 to show Music Screen for Sprint 3
+<img src="Music Screen.gif" width=150><br>
 **Optional Nice-to-have Stories**
 
 * Sharing on social media platforms such as Instagram, Facebook, etc
