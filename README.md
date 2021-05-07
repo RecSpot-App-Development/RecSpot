@@ -29,7 +29,7 @@ The purpose of this app is to allow users to record a video that can then be edi
 - [x]  User can select 'Record' so that they can make their video
 - [x] User can play and pause the song provided 
 - [x] User can play the song selections from their phones 
-- [x] User can view 3 of the edit options which are: 
+- [x] User can view 1 of the edit options which is: 
 - [ ]  User can view/add the various edit options provided 
 
 ### App Walkthrough GIF for Sprint 1
@@ -39,7 +39,7 @@ The purpose of this app is to allow users to record a video that can then be edi
 <img src="Music1.gif" width=350><br>
 
 ### App Walkthrough GIF Number 1 to show Music Screen for Sprint 3
-<img src="Music Screen.gif" width=150><br>
+<img src="Music Screen.gif" width=250><br>
 **Optional Nice-to-have Stories**
 
 * Sharing on social media platforms such as Instagram, Facebook, etc
