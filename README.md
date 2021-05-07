@@ -28,7 +28,7 @@ The purpose of this app is to allow users to record a video that can then be edi
 - [x] User can view the selected options that are: Record, Select Music, Edit and Save
 - [x]  User can select 'Record' so that they can make their video
 - [x] User can play and pause the song provided 
-- [x] User can play the song selections from their phones 
+- [x] User can play the various song selections from their phone
 - [x] User can view 1 of the edit options which is: 
 - [ ]  User can view/add the various edit options provided 
 
