@@ -39,7 +39,7 @@ The purpose of this app is to allow users to record a video that can then be edi
 <img src="Music1.gif" width=350><br>
 
 ### App Walkthrough GIF Number 1 to show Music Screen for Sprint 3
-<img src="Music Screen.gif" width=250><br>
+<img src="Music Screen.gif" width=250> height=150<br>
 **Optional Nice-to-have Stories**
 
 * Sharing on social media platforms such as Instagram, Facebook, etc
