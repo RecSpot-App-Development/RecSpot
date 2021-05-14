@@ -1,19 +1,21 @@
 package com.codepath.myapplication;
 
-import android.app.Activity;
+import android.Manifest;
 import android.app.AlertDialog;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.net.Uri;
+import android.os.Build;
 import android.provider.MediaStore;
 import android.support.annotation.Nullable;
+import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 import android.widget.VideoView;
 
-import java.io.File;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,6 +23,10 @@ public class MainActivity extends AppCompatActivity {
     Button music_btn;
     Button edit_btn;
     Button save_btn;
+    public static final int REQUEST_ID_MULTIPLE_PERMISSIONS = 1;  // Declare this integer globally
+    Uri videoUri;
+    private static final int REQUEST_PERMISSIONS = 403;
+
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
@@ -60,12 +66,28 @@ public class MainActivity extends AppCompatActivity {
         });
 
         record_btn.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.M)
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(MediaStore.ACTION_VIDEO_CAPTURE);
-                startActivityForResult(intent,1);
 
+                if (checkSelfPermission(Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED ||
+                        checkSelfPermission(Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+                    requestPermissions(new String[]{Manifest.permission.CAMERA,
+                                    Manifest.permission.READ_EXTERNAL_STORAGE},
+                            REQUEST_PERMISSIONS);
+
+                }
+                else
+                {
+                    Intent intent = new Intent(MediaStore.ACTION_VIDEO_CAPTURE);
+//                    File mediaFile = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + "/myvideo.mp4");
+//                    videoUri = FileProvider.getUriForFile(getApplicationContext(), getPackageName()+".fileprovider", mediaFile);
+//                    intent.putExtra(MediaStore.EXTRA_OUTPUT, videoUri);
+                    startActivityForResult(intent, 101);
+
+
+                }
             }
         });
 
@@ -98,8 +120,4 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, VideoActivity.class);
         startActivity(intent);
     }
-
-
-
-
 }

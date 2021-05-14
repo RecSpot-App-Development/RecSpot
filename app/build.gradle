@@ -1,9 +1,60 @@
 plugins {
     id 'com.android.application'
 }
+// Apply the Android Plugin
+apply plugin: 'com.android.application'
+
+// Apply Kotlin Plugin
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+// Apply the PESDKPlugin
+apply plugin: 'ly.img.android.sdk'
+
+
+imglyConfig {
+
+    vesdk {
+        enabled true
+        licencePath 'LICENSE'
+    }
+
+    // Define the modules you are need
+    modules {
+        // Add all the UI modules you are need
+        include 'ui:core'
+        include 'ui:text'
+        include 'ui:focus'
+        include 'ui:frame'
+        include 'ui:brush'
+        include 'ui:filter'
+        include 'ui:camera'
+        include 'ui:sticker'
+        include 'ui:overlay'
+        include 'ui:transform'
+        include 'ui:adjustment'
+        include 'ui:text-design'
+
+
+        // Add the serializer if you need
+        include 'backend:serializer'
+
+        // Add asset packs if you need
+        include 'assets:font-basic'
+        include 'assets:frame-basic'
+        include 'assets:filter-basic'
+        include 'assets:overlay-basic'
+        include 'assets:sticker-shapes'
+        include 'assets:sticker-emoticons'
+    }
+}
+
 
 android {
     compileSdkVersion 30
+    //buildToolsVersion '29.0.2'
+
     buildToolsVersion "30.0.3"
 
     defaultConfig {
@@ -26,11 +77,20 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    sourceSets {
+        main {
+            assets {
+                srcDirs 'src\\main\\assets'
+            }
+        }
+    }
 }
 
 dependencies {
 
-    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+//   classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    //implementation 'com.android.support:appcompat-v7:28.0.0'
     implementation 'com.android.support.constraint:constraint-layout:2.0.4'
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
