@@ -29,7 +29,7 @@ The purpose of this app is to allow users to record a video that can then be edi
 - [x]  User can select 'Record' so that they can make their video
 - [x] User can play and pause the song provided 
 - [x] User can play the various song selections from their phone
-- [x] User can now select Record and record a video and then see it saved into their camera roll
+- [x] User can now select Record and record a video and then see it saved into their gallery 
 - [x]  User can 'view' the various edit options (can view the screen) 
 
 ### App Walkthrough GIF for Sprint 1
